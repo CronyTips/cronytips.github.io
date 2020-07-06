@@ -12,6 +12,18 @@
     
     
     <item>
+      <title>About Crony Akatsuki</title>
+      <link>https://cronytips.github.io/about/</link>
+      <pubDate>Mon, 06 Jul 2020 19:15:32 +0800</pubDate>
+      
+      <guid>https://cronytips.github.io/about/</guid>
+      <description>Hi everyone I&amp;rsquo;m Crony Akatsuki the creator of Crony Tips. You must be asking yourself what is the point of this blog.
+The point of this site is that it is just a place where I can write about stuff that I like and make tips on how to do it so that somebody else who loves atleast something like me can maybe find help on my site.
+This site is purelly for fun and sharing my opinion. If anyone find&amp;rsquo;s them self being offended just email me on the mail in the right side.
+I would also love to get your recommendations on what to write about so just email me with your recommendations.</description>
+    </item>
+    
+    <item>
       <title>Markdown Syntax</title>
       <link>https://cronytips.github.io/post/markdown-syntax/</link>
       <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
@@ -20,18 +32,6 @@
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
 &lt;h2 id=&#34;headings&#34;&gt;Headings&lt;/h2&gt;
 &lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>About Crony Akatsuki</title>
-      <link>https://cronytips.github.io/about/</link>
-      <pubDate>Sat, 11 Apr 2020 19:15:32 +0800</pubDate>
-      
-      <guid>https://cronytips.github.io/about/</guid>
-      <description>Hi everyone I&amp;rsquo;m Crony Akatsuki the creator of Crony Tips. You must be asking yourself what is the point of this blog.
-The point of this site is that it is just a place where I can write about stuff that I like and make tips on how to do it so that somebody else who loves atleast something like me can maybe find help on my site.
-This site is purelly for fun and sharing my opinion. If anyone find&amp;rsquo;s them self being offended just email me on the mail in the right side.
-I would also love to get your recommendations on what to write about so just email me with your recommendations.</description>
     </item>
     
     <item>
