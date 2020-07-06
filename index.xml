@@ -23,15 +23,15 @@
     </item>
     
     <item>
-      <title>About Hugo</title>
+      <title>About Crony Akatsuki</title>
       <link>https://cronytips.github.io/about/</link>
       <pubDate>Sat, 11 Apr 2020 19:15:32 +0800</pubDate>
       
       <guid>https://cronytips.github.io/about/</guid>
-      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
-Hugo makes use of a variety of open source projects including:
- https://github.com/yuin/goldmark https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper  Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.</description>
+      <description>Hi everyone I&amp;rsquo;m Crony Akatsuki the creator of Crony Tips. You must be asking yourself what is the point of this blog.
+The point of this site is that it is just a place where I can write about stuff that I like and make tips on how to do it so that somebody else who loves atleast something like me can maybe find help on my site.
+So what you will find on my site.
+ anime manga light-novels games linux  anime You will find me listing anime that I like and I will probarly make a post about what anime I watched that month and make a ranking out of them or something like that.</description>
     </item>
     
     <item>
