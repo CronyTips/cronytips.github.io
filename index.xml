@@ -6,10 +6,19 @@
     <description>Recent content on Crony Tips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Jul 2020 15:17:26 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2020 13:10:02 +0200</lastBuildDate>
     
 	<atom:link href="https://cronytips.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tachiyomi: open-source manga reader for android</title>
+      <link>https://cronytips.github.io/2020/tachiyomi-open-source-manga-reader-for-android/</link>
+      <pubDate>Wed, 08 Jul 2020 13:10:02 +0200</pubDate>
+      
+      <guid>https://cronytips.github.io/2020/tachiyomi-open-source-manga-reader-for-android/</guid>
+      <description>&lt;p&gt;In this post I will write about a open-source manga reader named Tachiyomi.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Why do I use Linux</title>
@@ -17,15 +26,6 @@
       <pubDate>Tue, 07 Jul 2020 15:17:26 +0200</pubDate>
       
       <guid>https://cronytips.github.io/2020/why-do-i-use-linux/</guid>
-      <description>&lt;p&gt;In this post I will explain my reason&amp;rsquo;s for using and loving linux. And they also serve as reasons as to &lt;code&gt;why you should use linux&lt;/code&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Why do I use Linux</title>
-      <link>https://cronytips.github.io/why-do-i-use-linux/</link>
-      <pubDate>Tue, 07 Jul 2020 15:17:26 +0200</pubDate>
-      
-      <guid>https://cronytips.github.io/why-do-i-use-linux/</guid>
       <description>&lt;p&gt;In this post I will explain my reason&amp;rsquo;s for using and loving linux. And they also serve as reasons as to &lt;code&gt;why you should use linux&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     
