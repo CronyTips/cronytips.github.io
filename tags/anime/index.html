@@ -24,27 +24,27 @@
 
 
 
-<title>Search - Crony Tips</title>
+<title>anime - Crony Tips</title>
 
 
 <meta name="author" content="Crony Akatsuki" />
 
 
-<meta name="description" content="Searchng engine" />
+<meta name="description" content="A certain lunatics blog about anime, manga, light novels, games and linux" />
 
 
-<meta property="og:title" content="Search" />
-<meta property="og:description" content="Searchng engine" />
+<meta property="og:title" content="anime" />
+<meta property="og:description" content="A certain lunatics blog about anime, manga, light novels, games and linux" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://cronytips.github.io/search/" />
+<meta property="og:url" content="https://cronytips.github.io/tags/anime/" />
 <meta property="og:image" content="https://cronytips.github.io/img/og.png"/>
-
+<meta property="og:updated_time" content="2020-07-09T14:10:36+02:00" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://cronytips.github.io/img/og.png"/>
 
-<meta name="twitter:title" content="Search"/>
-<meta name="twitter:description" content="Searchng engine"/>
+<meta name="twitter:title" content="anime"/>
+<meta name="twitter:description" content="A certain lunatics blog about anime, manga, light novels, games and linux"/>
 
 
 
@@ -130,34 +130,31 @@
                 
 
 <div class="page-info">
-    <form class="search-form" method="GET">
-        <div class="search-input">
-            <input name="s" type="search" autocapitalize="off" autocomplete="off" autocorrect="off"
-                   spellcheck="false" />
-            <button type="submit"><ion-icon name="search-circle-outline"></ion-icon></button>
-        </div>
-    </form>
+    <span>Posts with the tag anime: </span>
 </div>
 
-<div class="search-result-info" style="display: none;"><span>[NUM] results ([TIME] ms)</span></div>
-<div class="search-result-info" style="display: none;"><span>Results not found</span></div>
-<div class="search-result-info" style="display: none;"><span>Failed to load index file</span></div>
-<div id="search-result"></div>
-<script id="search-result-template" type="text/fuse-template">
-    <% for(var i = 0; i < $data.length; i++){ %>
-    <div class="post">
-        <h3 class="post-item post-title-archive">
-            <a href="<%= $data[i].item.permalink %>"><%= $data[i].item.title %></a>
-        </h3>
-        <div class="post-item post-meta-archive">
-            <span><ion-icon name="today"></ion-icon>&nbsp;<%= $data[i].item.date %></span>
-            <span>
-                <ion-icon name="pricetags"></ion-icon>&nbsp;<% if ($data[i].item.tags && $data[i].item.tags.length > 0) { %><% for(var j = 0; j < $data[i].item.tags.length; j++){ %><%= $data[i].item.tags[j] %>&nbsp;<% } %><% } else { %>No tag<% } %>
-            </span>
-        </div>
+
+
+<div class="post">
+    <h2 class="post-item post-title">
+        <a href="https://cronytips.github.io/2020/anyme-android-app-for-watching-anime/">Anyme: android app for watching anime</a>
+    </h2>
+    <div class="post-item post-meta">
+        <span><ion-icon name="today"></ion-icon>&nbsp;2020-07-09</span><span><ion-icon name="file-tray"></ion-icon>&nbsp;751 words</span><span><ion-icon name="stopwatch"></ion-icon>&nbsp;4 minutes</span><span><ion-icon name="pricetags"></ion-icon>&nbsp;<a href="https://cronytips.github.io/tags/anime">anime</a>&nbsp;<a href="https://cronytips.github.io/tags/android">android</a>&nbsp;</span>
     </div>
-    <% } %>
-</script>
+    <div class="post-item post-summary markdown-body">
+        <p>In this post I will be writing about an android app called Anyme.</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
 
             </div>
             <aside class="col-12 col-md-3 float-left sidebar">
@@ -271,7 +268,9 @@
     <script async type="module" src="https://cdn.jsdelivr.net/npm/ionicons@5.0.1/dist/ionicons/ionicons.esm.js"></script>
 <script async nomodule src="https://cdn.jsdelivr.net/npm/ionicons@5.0.1/dist/ionicons/ionicons.js"></script>
 
-<script defer src="https://cdn.jsdelivr.net/combine/npm/art-template@4.13.2/lib/template-web.min.js,npm/fuse.js@6.2.0"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/prismjs@1.20.0/components/prism-core.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/prismjs@1.20.0/plugins/autoloader/prism-autoloader.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.2/lazysizes.min.js"></script>
 
 <script defer src="https://cronytips.github.io/assets/js/fuji.min.js"></script>
 
