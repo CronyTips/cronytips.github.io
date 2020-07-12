@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://cronytips.github.io/</loc>
+    <lastmod>2020-07-12T13:20:06+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cronytips.github.io/tags/games/</loc>
+    <lastmod>2020-07-12T13:20:06+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cronytips.github.io/2020/gaming-on-linux/</loc>
+    <lastmod>2020-07-12T13:20:06+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cronytips.github.io/tags/linux/</loc>
+    <lastmod>2020-07-12T13:20:06+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cronytips.github.io/post/</loc>
+    <lastmod>2020-07-12T13:20:06+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cronytips.github.io/tags/android/</loc>
     <lastmod>2020-07-09T14:10:36+02:00</lastmod>
   </url>
@@ -14,16 +39,6 @@
   
   <url>
     <loc>https://cronytips.github.io/2020/anyme-android-app-for-watching-anime/</loc>
-    <lastmod>2020-07-09T14:10:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cronytips.github.io/</loc>
-    <lastmod>2020-07-09T14:10:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cronytips.github.io/post/</loc>
     <lastmod>2020-07-09T14:10:36+02:00</lastmod>
   </url>
   
@@ -40,11 +55,6 @@
   <url>
     <loc>https://cronytips.github.io/2020/tachiyomi-open-source-manga-reader-for-android/</loc>
     <lastmod>2020-07-08T13:10:02+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cronytips.github.io/tags/linux/</loc>
-    <lastmod>2020-07-07T15:17:26+02:00</lastmod>
   </url>
   
   <url>
