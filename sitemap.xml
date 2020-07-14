@@ -3,8 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://cronytips.github.io/2020/alacritty-amazing-minimal-terminal/</loc>
+    <lastmod>2020-07-14T10:04:13+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cronytips.github.io/</loc>
-    <lastmod>2020-07-13T12:50:56+02:00</lastmod>
+    <lastmod>2020-07-14T10:04:13+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cronytips.github.io/tags/linux/</loc>
+    <lastmod>2020-07-14T10:04:13+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cronytips.github.io/tags/open-source/</loc>
+    <lastmod>2020-07-14T10:04:13+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cronytips.github.io/post/</loc>
+    <lastmod>2020-07-14T10:04:13+02:00</lastmod>
   </url>
   
   <url>
@@ -18,22 +38,12 @@
   </url>
   
   <url>
-    <loc>https://cronytips.github.io/post/</loc>
-    <lastmod>2020-07-13T12:50:56+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://cronytips.github.io/tags/games/</loc>
     <lastmod>2020-07-12T13:20:06+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://cronytips.github.io/2020/gaming-on-linux/</loc>
-    <lastmod>2020-07-12T13:20:06+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cronytips.github.io/tags/linux/</loc>
     <lastmod>2020-07-12T13:20:06+02:00</lastmod>
   </url>
   
@@ -54,11 +64,6 @@
   
   <url>
     <loc>https://cronytips.github.io/tags/manga/</loc>
-    <lastmod>2020-07-08T13:10:02+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cronytips.github.io/tags/open-source/</loc>
     <lastmod>2020-07-08T13:10:02+02:00</lastmod>
   </url>
   

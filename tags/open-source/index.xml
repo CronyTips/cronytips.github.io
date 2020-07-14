@@ -6,10 +6,19 @@
     <description>Recent content in open-source on Crony Tips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Jul 2020 13:10:02 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2020 10:04:13 +0200</lastBuildDate>
     
 	<atom:link href="https://cronytips.github.io/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Alacritty: Amazing Minimal Terminal</title>
+      <link>https://cronytips.github.io/2020/alacritty-amazing-minimal-terminal/</link>
+      <pubDate>Tue, 14 Jul 2020 10:04:13 +0200</pubDate>
+      
+      <guid>https://cronytips.github.io/2020/alacritty-amazing-minimal-terminal/</guid>
+      <description>&lt;p&gt;In this post I will be talking about terminal emulator that I use Alacritty.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Tachiyomi: open-source manga reader for android</title>

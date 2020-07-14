@@ -24,7 +24,7 @@
 
 
 
-<title>Posts - Crony Tips</title>
+<title>Alacritty: Amazing Minimal Terminal - Crony Tips</title>
 
 
 <meta name="author" content="Crony Akatsuki" />
@@ -33,18 +33,21 @@
 <meta name="description" content="A certain lunatics blog about anime, manga, light novels, games and linux" />
 
 
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="A certain lunatics blog about anime, manga, light novels, games and linux" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://cronytips.github.io/post/" />
+<meta name="keywords" content="linux, open-source" />
+
+<meta property="og:title" content="Alacritty: Amazing Minimal Terminal" />
+<meta property="og:description" content="In this post I will be talking about terminal emulator that I use Alacritty." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cronytips.github.io/2020/alacritty-amazing-minimal-terminal/" />
 <meta property="og:image" content="https://cronytips.github.io/img/og.png"/>
-<meta property="og:updated_time" content="2020-07-14T10:04:13+02:00" />
+<meta property="article:published_time" content="2020-07-14T10:04:13+02:00" />
+<meta property="article:modified_time" content="2020-07-14T10:04:13+02:00" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://cronytips.github.io/img/og.png"/>
 
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="A certain lunatics blog about anime, manga, light novels, games and linux"/>
+<meta name="twitter:title" content="Alacritty: Amazing Minimal Terminal"/>
+<meta name="twitter:description" content="In this post I will be talking about terminal emulator that I use Alacritty."/>
 
 
 
@@ -128,88 +131,69 @@
             
             <div class="col-12 col-md-9 float-left content">
                 
-
-
-
-<div class="post">
+<article>
+    
     <h2 class="post-item post-title">
         <a href="https://cronytips.github.io/2020/alacritty-amazing-minimal-terminal/">Alacritty: Amazing Minimal Terminal</a>
     </h2>
     <div class="post-item post-meta">
         <span><ion-icon name="today"></ion-icon>&nbsp;2020-07-14</span><span><ion-icon name="file-tray"></ion-icon>&nbsp;281 words</span><span><ion-icon name="stopwatch"></ion-icon>&nbsp;2 minutes</span><span><ion-icon name="pricetags"></ion-icon>&nbsp;<a href="https://cronytips.github.io/tags/linux">linux</a>&nbsp;<a href="https://cronytips.github.io/tags/open-source">open-source</a>&nbsp;</span>
     </div>
-    <div class="post-item post-summary markdown-body">
+    
+    
+    <div class="post-content markdown-body">
         <p>In this post I will be talking about terminal emulator that I use Alacritty.</p>
+<hr>
+<blockquote>
+<p>Sample Alacritty configuration</p>
+</blockquote>
+<p>
+     <a href="https://raw.githubusercontent.com/CroLinuxGamer/Photos/master/terminal.png" target="_blank">
+          <img class="lazyload" src="https://cronytips.github.io/assets/lazyload/dsrca_loading_960x270.svg"
+               data-src="https://raw.githubusercontent.com/CroLinuxGamer/Photos/master/terminal.png" alt="alacritty" />
+     </a>
+</p>
+<p><a href="https://github.com/alacritty/alacritty" target="_blank">Alacritty</a> is a minimal terminal emulator that has all the basic features that you need to have a comfortable experience. It also has gpu support which setts it appart among all other terminal emulators. According to the Alacritty github page <code>Alacritty is the fastest terminal emulator in existence. Using the GPU for rendering enables optimizations that simply aren't possible without it</code>. And in my case it is the truth.</p>
+<p>Alacritty on my system has almost no different load time that <code>st</code> with difference in only of about 0.1 seconds. In therms of speed of dong tasks and stuff like that. For example <code>time tree /</code> took about 25 seconds on Alacritty while on <code>st</code> it took about 2 minutes. Yes diffence is that big.</p>
+<p>To install Alacritty you can use your distros oackage manager since it is in most repository&rsquo;s. In therms of configuration you will need to <a href="https://github.com/alacritty/alacritty/releases" target="_blank">Alacritty releases github page</a> and download <code>alacritty.yml</code> the you need to save the file in one of there directories:</p>
+<ol>
+<li><code>$XDG_CONFIG_HOME/alacritty/alacritty.yml</code></li>
+<li><code>$XDG_CONFIG_HOME/alacritty.yml</code></li>
+<li><code>$HOME/.config/alacritty/alacritty.yml</code></li>
+<li><code>$HOME/.alacritty.yml</code></li>
+</ol>
+<p>You can edit Alacritty configuration with any kind of text editor and config file has a lot of comments to help you understand every option so I don&rsquo;t think you will have any problems with it.</p>
+<style type="text/css">.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:#444;background:#e7f2fa}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:#fff;background:#6ab0de}.notice.warning .notice-title{background:rgba(217,83,79,.9)}.notice.warning{background:#fae2e2}.notice.info .notice-title{background:#f0b37e}.notice.info{background:#fff2db}.notice.note .notice-title{background:#6ab0de}.notice.note{background:#e7f2fA}.notice.tip .notice-title{background:rgba(92,184,92,.8)}.notice.tip{background:#e6f9e6}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:0.125em;position:relative}</style>
+<svg width="0" height="0" display="none" xmlns="http://www.w3.org/2000/svg"><symbol id="tip-notice" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"/></symbol><symbol id="note-notice" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><path d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"/></symbol><symbol id="warning-notice" viewBox="0 0 576 512" preserveAspectRatio="xMidYMid meet"><path d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"/></symbol><symbol id="info-notice" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><path d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"/></symbol></svg><div class="notice warning" >
+<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#warning-notice"></use></svg></span>Warning</p><p>You need to be careful with spaces in Alacritty configuration or you will be getting errors all the time like I did in the beginning</p></div>
+
+<p>I hope that you found this all helpful and that you will try out Alacritty.</p>
     </div>
+</article>
+
+
+
+<div class="post-comment" data-comment="disqus">
+    <span class="post-comment-notloaded">
+        <ion-icon name="chatbox-ellipses"></ion-icon>&nbsp;Load comments
+    </span>
+    <div id="disqus_thread" style="display: none;"></div>
+    <script>
+        function loadComment() {
+            var commentArea = document.querySelector('.post-comment');
+            var disqus_config = function () {
+                this.page.url = 'https:\/\/cronytips.github.io\/2020\/alacritty-amazing-minimal-terminal\/';
+                this.page.identifier = 'alacritty-amazing-minimal-terminal';
+            };
+            var s = document.createElement('script');
+            s.src = 'https://' + 'crony-tips' + '.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            document.querySelector('#disqus_thread').removeAttribute('style');
+            (document.body || document.head).appendChild(s);
+            document.querySelector('span.post-comment-notloaded').setAttribute('style', 'display: none;');
+        }
+    </script>
 </div>
-
-<div class="post">
-    <h2 class="post-item post-title">
-        <a href="https://cronytips.github.io/2020/light-novels-how-to-find-them/">Light Novels: How to Find Them</a>
-    </h2>
-    <div class="post-item post-meta">
-        <span><ion-icon name="today"></ion-icon>&nbsp;2020-07-13</span><span><ion-icon name="file-tray"></ion-icon>&nbsp;498 words</span><span><ion-icon name="stopwatch"></ion-icon>&nbsp;3 minutes</span><span><ion-icon name="pricetags"></ion-icon>&nbsp;<a href="https://cronytips.github.io/tags/light-novels">light novels</a>&nbsp;</span>
-    </div>
-    <div class="post-item post-summary markdown-body">
-        <p>In this post I will be talking about how I find Light Novels that I want that seem interesting enough for me to want to read them and how do I read them.</p>
-    </div>
-</div>
-
-<div class="post">
-    <h2 class="post-item post-title">
-        <a href="https://cronytips.github.io/2020/gaming-on-linux/">Gaming on Linux</a>
-    </h2>
-    <div class="post-item post-meta">
-        <span><ion-icon name="today"></ion-icon>&nbsp;2020-07-12</span><span><ion-icon name="file-tray"></ion-icon>&nbsp;550 words</span><span><ion-icon name="stopwatch"></ion-icon>&nbsp;3 minutes</span><span><ion-icon name="pricetags"></ion-icon>&nbsp;<a href="https://cronytips.github.io/tags/games">games</a>&nbsp;<a href="https://cronytips.github.io/tags/linux">linux</a>&nbsp;</span>
-    </div>
-    <div class="post-item post-summary markdown-body">
-        <p>In this post I will be talking about my experience on the topic of gaming on GNU/Linux and its state in this day and age.</p>
-    </div>
-</div>
-
-<div class="post">
-    <h2 class="post-item post-title">
-        <a href="https://cronytips.github.io/2020/anyme-android-app-for-watching-anime/">Anyme: android app for watching anime</a>
-    </h2>
-    <div class="post-item post-meta">
-        <span><ion-icon name="today"></ion-icon>&nbsp;2020-07-09</span><span><ion-icon name="file-tray"></ion-icon>&nbsp;751 words</span><span><ion-icon name="stopwatch"></ion-icon>&nbsp;4 minutes</span><span><ion-icon name="pricetags"></ion-icon>&nbsp;<a href="https://cronytips.github.io/tags/anime">anime</a>&nbsp;<a href="https://cronytips.github.io/tags/android">android</a>&nbsp;</span>
-    </div>
-    <div class="post-item post-summary markdown-body">
-        <p>In this post I will be writing about an android app called Anyme.</p>
-    </div>
-</div>
-
-<div class="post">
-    <h2 class="post-item post-title">
-        <a href="https://cronytips.github.io/2020/tachiyomi-open-source-manga-reader-for-android/">Tachiyomi: open-source manga reader for android</a>
-    </h2>
-    <div class="post-item post-meta">
-        <span><ion-icon name="today"></ion-icon>&nbsp;2020-07-08</span><span><ion-icon name="file-tray"></ion-icon>&nbsp;1339 words</span><span><ion-icon name="stopwatch"></ion-icon>&nbsp;7 minutes</span><span><ion-icon name="pricetags"></ion-icon>&nbsp;<a href="https://cronytips.github.io/tags/manga">manga</a>&nbsp;<a href="https://cronytips.github.io/tags/android">android</a>&nbsp;<a href="https://cronytips.github.io/tags/open-source">open-source</a>&nbsp;</span>
-    </div>
-    <div class="post-item post-summary markdown-body">
-        <p>In this post I will write about a open-source manga reader named Tachiyomi.</p>
-    </div>
-</div>
-
-<div class="post">
-    <h2 class="post-item post-title">
-        <a href="https://cronytips.github.io/2020/why-do-i-use-linux/">Why do I use Linux</a>
-    </h2>
-    <div class="post-item post-meta">
-        <span><ion-icon name="today"></ion-icon>&nbsp;2020-07-07</span><span><ion-icon name="file-tray"></ion-icon>&nbsp;501 words</span><span><ion-icon name="stopwatch"></ion-icon>&nbsp;3 minutes</span><span><ion-icon name="pricetags"></ion-icon>&nbsp;<a href="https://cronytips.github.io/tags/linux">linux</a>&nbsp;</span>
-    </div>
-    <div class="post-item post-summary markdown-body">
-        <p>In this post I will explain my reason&rsquo;s for using and loving linux. And they also serve as reasons as to <code>why you should use linux</code>.</p>
-    </div>
-</div>
-
-
-
-
-
-
-
-
 
 
             </div>
