@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Crony Tips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Aug 2020 12:21:35 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2020 13:02:33 +0200</lastBuildDate>
     
 	<atom:link href="https://cronytips.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Arch/Manjaro: Fix Gpg Keyserver Error</title>
+      <link>https://cronytips.github.io/2020/arch-manjaro-fix-gpg-keyserver-error/</link>
+      <pubDate>Thu, 06 Aug 2020 13:02:33 +0200</pubDate>
+      
+      <guid>https://cronytips.github.io/2020/arch-manjaro-fix-gpg-keyserver-error/</guid>
+      <description>&lt;p&gt;gpg: keyserver receive failed: General error. One of the most annoying errors.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>PCManFM: Great Minimal File Manager</title>

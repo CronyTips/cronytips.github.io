@@ -3,13 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://cronytips.github.io/2020/arch-manjaro-fix-gpg-keyserver-error/</loc>
+    <lastmod>2020-08-06T13:02:33+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cronytips.github.io/</loc>
-    <lastmod>2020-08-06T12:21:35+02:00</lastmod>
+    <lastmod>2020-08-06T13:02:33+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://cronytips.github.io/tags/linux/</loc>
-    <lastmod>2020-08-06T12:21:35+02:00</lastmod>
+    <lastmod>2020-08-06T13:02:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cronytips.github.io/post/</loc>
+    <lastmod>2020-08-06T13:02:33+02:00</lastmod>
   </url>
   
   <url>
@@ -19,11 +29,6 @@
   
   <url>
     <loc>https://cronytips.github.io/2020/pcmanfm-great-minimal-file-manager/</loc>
-    <lastmod>2020-08-06T12:21:35+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cronytips.github.io/post/</loc>
     <lastmod>2020-08-06T12:21:35+02:00</lastmod>
   </url>
   
