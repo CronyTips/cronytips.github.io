@@ -89,32 +89,19 @@
 
 <body data-theme="auto">
     <script data-cfasync="false">
+  
+  var fujiThemeData = localStorage.getItem('fuji_data-theme');
+  
+  if (!fujiThemeData) {
+    localStorage.setItem('fuji_data-theme', 'auto');
+  } else {
     
-    var fujiThemeData = localStorage.getItem('fuji_data-theme');
-    
-    if (!fujiThemeData) {
-        localStorage.setItem('fuji_data-theme', 'auto');
-    } else {
-        
-        if (fujiThemeData !== 'auto') {
-            document.body.setAttribute('data-theme', fujiThemeData === 'dark' ? 'dark' : 'light');
-        }
+    if (fujiThemeData !== 'auto') {
+      document.body.setAttribute('data-theme', fujiThemeData === 'dark' ? 'dark' : 'light');
     }
+  }
 </script>
-<script data-cfasync="false">
-    
-    function browserDetection(ua) {
-        if (ua.indexOf('MSIE ') > 0 || ua.indexOf('Trident/') > 0) {
-            return true;
-        }
-        return false;
-    }
 
-    var ua = window.navigator.userAgent;
-    if (browserDetection(ua)) {
-        window.location.href('https:\/\/cronytips.github.io\/ie\/');
-    }
-</script>
     <header>
     <div class="container-lg clearfix">
         <div class="col-12 header">
@@ -137,7 +124,8 @@
         <a href="https://cronytips.github.io/2020/why-do-i-use-linux/">Why do I use Linux</a>
     </h2>
     <div class="post-item post-meta">
-        <span><ion-icon name="today"></ion-icon>&nbsp;2020-07-07</span><span><ion-icon name="file-tray"></ion-icon>&nbsp;501 words</span><span><ion-icon name="stopwatch"></ion-icon>&nbsp;3 minutes</span><span><ion-icon name="pricetags"></ion-icon>&nbsp;<a href="https://cronytips.github.io/tags/linux">linux</a>&nbsp;</span>
+        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2020-07-07</span><span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;501 words</span><span><i class="iconfont icon-time-sharp"></i>&nbsp;3 minutes</span><span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="https://cronytips.github.io/tags/linux">linux</a>&nbsp;</span>
+
     </div>
     
     
@@ -160,12 +148,15 @@
 <p>GNU/Linux is much more easier to use than <code>windows</code>. At the very least that is my opinion and to tell those that maybe think that it is because I didn&rsquo;t use windows a lot.I used windows for more than 10 year&rsquo;s so it isn&rsquo;t that I wasn&rsquo;t accustomed to the windows world but linux suits me much more.</p>
 <h1 id="7-customization">7. Customization</h1>
 <p>You can customize your GNU/Linux desktop to be exactly what you want. Like that you can also boost your productivity and ease of use even more. Like what I did whit my setup and ended up with a <a href="https://github.com/baskerville/bspwm" target="_blank">bspwm</a> setup that I heavily customized. Here you can see a look at my setup.</p>
-<p>
-     <a href="https://raw.githubusercontent.com/CroLinuxGamer/Photos/master/desktop.png" target="_blank">
-          <img class="lazyload" src="https://cronytips.github.io/assets/lazyload/dsrca_loading_960x270.svg"
-               data-src="https://raw.githubusercontent.com/CroLinuxGamer/Photos/master/desktop.png" alt="Desktop" />
-     </a>
-</p>
+
+<img
+  class="lazyload img-zoomable"
+  src="https://cronytips.github.io/assets/lazyload/dsrca_loading_960x270.svg"
+  data-src="https://raw.githubusercontent.com/CroLinuxGamer/Photos/master/desktop.png"
+  alt="Desktop"
+/>
+
+
 <hr>
 <p>All in all my opinion of GNU/Linux will probably never change because it is just what I need of a desktop OS. But still everyone has their opinion and that is hard to change.</p>
     </div>
@@ -175,7 +166,7 @@
 
 <div class="post-comment" data-comment="disqus">
     <span class="post-comment-notloaded">
-        <ion-icon name="chatbox-ellipses"></ion-icon>&nbsp;Load comments
+        <i class="iconfont icon-chatbox-ellipses-sharp"></i>&nbsp;Load comments
     </span>
     <div id="disqus_thread" style="display: none;"></div>
     <script>
@@ -198,10 +189,6 @@
 
             </div>
             <aside class="col-12 col-md-3 float-left sidebar">
-    
-    
-    
-    
     
     <div class="sidebar-item sidebar-pages">
         <h3>Pages</h3>
@@ -296,14 +283,17 @@
         </ul>
     </div>
     
+    
+    
+    
 </aside>
         </div>
         <div class="btn">
     <div class="btn-toggle-mode">
-        <ion-icon name="contrast"></ion-icon>
+        <i class="iconfont icon-contrast-sharp"></i>
     </div>
     <div class="btn-scroll-top">
-        <ion-icon name="chevron-up"></ion-icon>
+        <i class="iconfont icon-chevron-up-circle-sharp"></i>
     </div>
 </div>
     </main>
@@ -319,14 +309,12 @@
     </div>
 </footer>
     
-    <script async type="module" src="https://cdn.jsdelivr.net/npm/ionicons@5.0.1/dist/ionicons/ionicons.esm.js"></script>
-<script async nomodule src="https://cdn.jsdelivr.net/npm/ionicons@5.0.1/dist/ionicons/ionicons.js"></script>
-
+<script defer src="https://cdn.jsdelivr.net/combine/npm/medium-zoom@1.0.5,npm/lazysizes@5.2.2"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/prismjs@1.20.0/components/prism-core.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/prismjs@1.20.0/plugins/autoloader/prism-autoloader.min.js"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.2/lazysizes.min.js"></script>
 
 <script defer src="https://cronytips.github.io/assets/js/fuji.min.js"></script>
+
 
 </body>
 

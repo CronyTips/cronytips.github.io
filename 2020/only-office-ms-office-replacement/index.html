@@ -89,32 +89,19 @@
 
 <body data-theme="auto">
     <script data-cfasync="false">
+  
+  var fujiThemeData = localStorage.getItem('fuji_data-theme');
+  
+  if (!fujiThemeData) {
+    localStorage.setItem('fuji_data-theme', 'auto');
+  } else {
     
-    var fujiThemeData = localStorage.getItem('fuji_data-theme');
-    
-    if (!fujiThemeData) {
-        localStorage.setItem('fuji_data-theme', 'auto');
-    } else {
-        
-        if (fujiThemeData !== 'auto') {
-            document.body.setAttribute('data-theme', fujiThemeData === 'dark' ? 'dark' : 'light');
-        }
+    if (fujiThemeData !== 'auto') {
+      document.body.setAttribute('data-theme', fujiThemeData === 'dark' ? 'dark' : 'light');
     }
+  }
 </script>
-<script data-cfasync="false">
-    
-    function browserDetection(ua) {
-        if (ua.indexOf('MSIE ') > 0 || ua.indexOf('Trident/') > 0) {
-            return true;
-        }
-        return false;
-    }
 
-    var ua = window.navigator.userAgent;
-    if (browserDetection(ua)) {
-        window.location.href('https:\/\/cronytips.github.io\/ie\/');
-    }
-</script>
     <header>
     <div class="container-lg clearfix">
         <div class="col-12 header">
@@ -137,16 +124,16 @@
         <a href="https://cronytips.github.io/2020/only-office-ms-office-replacement/">OnlyOffice: MS Office Replacement</a>
     </h2>
     <div class="post-item post-meta">
-        <span><ion-icon name="today"></ion-icon>&nbsp;2020-07-31</span><span><ion-icon name="file-tray"></ion-icon>&nbsp;429 words</span><span><ion-icon name="stopwatch"></ion-icon>&nbsp;3 minutes</span><span><ion-icon name="pricetags"></ion-icon>&nbsp;<a href="https://cronytips.github.io/tags/linux">linux</a>&nbsp;<a href="https://cronytips.github.io/tags/open-source">open-source</a>&nbsp;</span>
+        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2020-07-31</span><span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;429 words</span><span><i class="iconfont icon-time-sharp"></i>&nbsp;3 minutes</span><span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="https://cronytips.github.io/tags/linux">linux</a>&nbsp;<a href="https://cronytips.github.io/tags/open-source">open-source</a>&nbsp;</span>
+
     </div>
     
     
     <div class="post-content markdown-body">
         <p>In this post I will be writing about a MS Office replacement that I have been using for a long time called OnlyOffice.</p>
 <hr>
-<p><a href="https://static-www.onlyoffice.com/v9.5.0/images/mainpage/may2018/editors/document-short.jpg" target="_blank">
-    <img src="https://static-www.onlyoffice.com/v9.5.0/images/mainpage/may2018/editors/document-short.jpg" alt="" />
-</a></p>
+<p><img class="img-zoomable" src="https://static-www.onlyoffice.com/v9.5.0/images/mainpage/may2018/editors/document-short.jpg" alt="" />
+</p>
 <p>We all know that <strong>MS Office</strong> is the mainstream office suit which is used by a majority of people. That is also one of the reasons for a lot of people to not consider <strong>linux</strong> as their main operating system. But a lot of people also doesn&rsquo;t know that there are free replacements for MS office. Most of the linux users use the replacement called <a href="https://www.libreoffice.org/" target="_blank">LibreOffice</a>, and I cant say that it is a bad piece of software but for my needs it is <strong>bloated</strong>, yes bloated because it has so many different options and also so many different office components Writer, Calc, Impress, Draw, Base, Math, and Charts. And that is a problem for me because I only need a word processor, presentation editor and spreadsheet processor with only the basic editing because thinks like math I will rather do in Latex and make documents with markdown and the use pandoc to compile them to pdf rather that use word. Now then lets see what does OnlyOffice have.</p>
 <h1 id="look-and-feel">Look and feel</h1>
 <p>In therms of look and feel it is pretty similar to newer versions of MS Office and that makes it easier for long time MS Office users to get used to the software. It is also very modern looking. It also has a home screen which opens up when you launch the program.</p>
@@ -165,7 +152,7 @@
 
 <div class="post-comment" data-comment="disqus">
     <span class="post-comment-notloaded">
-        <ion-icon name="chatbox-ellipses"></ion-icon>&nbsp;Load comments
+        <i class="iconfont icon-chatbox-ellipses-sharp"></i>&nbsp;Load comments
     </span>
     <div id="disqus_thread" style="display: none;"></div>
     <script>
@@ -188,10 +175,6 @@
 
             </div>
             <aside class="col-12 col-md-3 float-left sidebar">
-    
-    
-    
-    
     
     <div class="sidebar-item sidebar-pages">
         <h3>Pages</h3>
@@ -286,14 +269,17 @@
         </ul>
     </div>
     
+    
+    
+    
 </aside>
         </div>
         <div class="btn">
     <div class="btn-toggle-mode">
-        <ion-icon name="contrast"></ion-icon>
+        <i class="iconfont icon-contrast-sharp"></i>
     </div>
     <div class="btn-scroll-top">
-        <ion-icon name="chevron-up"></ion-icon>
+        <i class="iconfont icon-chevron-up-circle-sharp"></i>
     </div>
 </div>
     </main>
@@ -309,14 +295,12 @@
     </div>
 </footer>
     
-    <script async type="module" src="https://cdn.jsdelivr.net/npm/ionicons@5.0.1/dist/ionicons/ionicons.esm.js"></script>
-<script async nomodule src="https://cdn.jsdelivr.net/npm/ionicons@5.0.1/dist/ionicons/ionicons.js"></script>
-
+<script defer src="https://cdn.jsdelivr.net/combine/npm/medium-zoom@1.0.5,npm/lazysizes@5.2.2"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/prismjs@1.20.0/components/prism-core.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/prismjs@1.20.0/plugins/autoloader/prism-autoloader.min.js"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.2/lazysizes.min.js"></script>
 
 <script defer src="https://cronytips.github.io/assets/js/fuji.min.js"></script>
+
 
 </body>
 
