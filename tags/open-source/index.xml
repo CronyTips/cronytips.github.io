@@ -6,10 +6,19 @@
     <description>Recent content in open-source on Crony Tips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Aug 2020 12:21:35 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2020 12:56:10 +0200</lastBuildDate>
     
 	<atom:link href="https://cronytips.github.io/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Foliate Open Source Epub Reader</title>
+      <link>https://cronytips.github.io/2020/foliate-open-source-epub-reader/</link>
+      <pubDate>Fri, 28 Aug 2020 12:56:10 +0200</pubDate>
+      
+      <guid>https://cronytips.github.io/2020/foliate-open-source-epub-reader/</guid>
+      <description>&lt;p&gt;In this post I will be talking about a open source epub reader.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>PCManFM: Great Minimal File Manager</title>
