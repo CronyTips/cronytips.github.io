@@ -24,7 +24,7 @@
 
 
 
-<title>Posts - Crony Tips</title>
+<title>Unite Gtk and Qt - Crony Tips</title>
 
 
 <meta name="author" content="Crony Akatsuki" />
@@ -33,18 +33,21 @@
 <meta name="description" content="A certain lunatics blog about anime, manga, light novels, games and linux" />
 
 
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="A certain lunatics blog about anime, manga, light novels, games and linux" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://cronytips.github.io/post/" />
+<meta name="keywords" content="linux, open-source" />
+
+<meta property="og:title" content="Unite Gtk and Qt" />
+<meta property="og:description" content="In this post I will talk about how to unite gtk and qt themes." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cronytips.github.io/2020/unite-gtk-and-qt/" />
 <meta property="og:image" content="https://cronytips.github.io/img/og.png"/>
-<meta property="og:updated_time" content="2020-09-08T15:17:26+02:00" />
+<meta property="article:published_time" content="2020-09-08T15:17:26+02:00" />
+<meta property="article:modified_time" content="2020-09-08T15:17:26+02:00" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://cronytips.github.io/img/og.png"/>
 
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="A certain lunatics blog about anime, manga, light novels, games and linux"/>
+<meta name="twitter:title" content="Unite Gtk and Qt"/>
+<meta name="twitter:description" content="In this post I will talk about how to unite gtk and qt themes."/>
 
 
 
@@ -115,91 +118,72 @@
             
             <div class="col-12 col-md-9 float-left content">
                 
-
-
-
-<div class="post">
+<article>
+    
     <h2 class="post-item post-title">
-        <a href="https://cronytips.github.io/2020/anyme-android-app-for-watching-anime/">Anyme: android app for watching anime</a>
+        <a href="https://cronytips.github.io/2020/unite-gtk-and-qt/">Unite Gtk and Qt</a>
     </h2>
     <div class="post-item post-meta">
-        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2020-07-09</span><span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;766 words</span><span><i class="iconfont icon-time-sharp"></i>&nbsp;4 minutes</span><span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="https://cronytips.github.io/tags/anime">anime</a>&nbsp;<a href="https://cronytips.github.io/tags/android">android</a>&nbsp;</span>
+        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2020-09-08</span><span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;278 words</span><span><i class="iconfont icon-time-sharp"></i>&nbsp;2 minutes</span><span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="https://cronytips.github.io/tags/linux">linux</a>&nbsp;<a href="https://cronytips.github.io/tags/open-source">open-source</a>&nbsp;</span>
 
     </div>
-    <div class="post-item post-summary markdown-body">
-        <p>In this post I will be writing about an android app called Anyme.</p>
+    
+    
+    <div class="post-content markdown-body">
+        <p>In this post I will talk about how to unite gtk and qt themes.</p>
+<hr>
+
+<img
+  class="lazyload img-zoomable"
+  src="https://cronytips.github.io/assets/lazyload/dsrca_loading_960x270.svg"
+  data-src="https://raw.githubusercontent.com/CroLinuxGamer/Photos/master/qt5ct.png"
+  alt="kid3-qt"
+/>
+
+
+<blockquote>
+<p>example of a qt program using qt5ct</p>
+</blockquote>
+<p>We all know the pain of trying to unite gtk and qt themes under linux. Most of the time the only thing that you can do is use same gtk and qt theme but there is another way that I have been using and that is using a program called qt5ct. Here you can check it&rsquo;s <a href="https://sourceforge.net/projects/qt5ct/" target="_blank">sourceforge site</a>.</p>
+<p>Qt5ct works in a way that it sets the qt theme to either gtk2 or a style with custom colors. You can also change the icons, font and other stuff to make your theming look more consistent.</p>
+<p>Now I&rsquo;m not saying that this program is bug free because I had problems of needing to install a lot of other packages to make it work or the gtk2 option wouldn&rsquo;t work for some reason. And the best way to find the fixes is to look on the Internet for the fix.</p>
+<h1 id="installation">Installation</h1>
+<p>Qt5ct is from my knowledge available in most distro repository&rsquo;s so you can use your package manager to install the qt5ct package. You also need to install additional gtk engines.</p>
+<p>It is also preferable that your themes also have a gtk2 version.</p>
+<p>But before using the software first you need to set an environmental variable <strong>QT_QPA_PLATFORMTHEME=&quot;qt5ct&rdquo;</strong>.</p>
+<p>Depending on you shell you will need to save it in your <em>.profile</em>.</p>
+<pre><code>zsh &gt; `export QT_QPA_PLATFORMTHEME=&quot;qt5ct&quot;` inside .zprofile
+
+bash &gt; `export QT_QPA_PLATFORMTHEME=&quot;qt5ct&quot;` inside .profile
+</code></pre>
+<hr>
+<p>I hope how this will help you get that perfect unified looks on your linux desktop. If you have any questions mention them in the comments section.</p>
     </div>
+</article>
+
+
+
+<div class="post-comment" data-comment="disqus">
+    <span class="post-comment-notloaded">
+        <i class="iconfont icon-chatbox-ellipses-sharp"></i>&nbsp;Load comments
+    </span>
+    <div id="disqus_thread" style="display: none;"></div>
+    <script>
+        function loadComment() {
+            var commentArea = document.querySelector('.post-comment');
+            var disqus_config = function () {
+                this.page.url = 'https:\/\/cronytips.github.io\/2020\/unite-gtk-and-qt\/';
+                this.page.identifier = 'unite-gtk-and-qt';
+            };
+            var s = document.createElement('script');
+            s.src = 'https://' + 'crony-tips' + '.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            document.querySelector('#disqus_thread').removeAttribute('style');
+            (document.body || document.head).appendChild(s);
+            document.querySelector('span.post-comment-notloaded').setAttribute('style', 'display: none;');
+        }
+    </script>
 </div>
-
-<div class="post">
-    <h2 class="post-item post-title">
-        <a href="https://cronytips.github.io/2020/tachiyomi-open-source-manga-reader-for-android/">Tachiyomi: open-source manga reader for android</a>
-    </h2>
-    <div class="post-item post-meta">
-        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2020-07-08</span><span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;1339 words</span><span><i class="iconfont icon-time-sharp"></i>&nbsp;7 minutes</span><span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="https://cronytips.github.io/tags/manga">manga</a>&nbsp;<a href="https://cronytips.github.io/tags/android">android</a>&nbsp;<a href="https://cronytips.github.io/tags/open-source">open-source</a>&nbsp;</span>
-
-    </div>
-    <div class="post-item post-summary markdown-body">
-        <p>In this post I will write about a open-source manga reader named Tachiyomi.</p>
-    </div>
-</div>
-
-<div class="post">
-    <h2 class="post-item post-title">
-        <a href="https://cronytips.github.io/2020/why-do-i-use-linux/">Why do I use Linux</a>
-    </h2>
-    <div class="post-item post-meta">
-        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2020-07-07</span><span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;514 words</span><span><i class="iconfont icon-time-sharp"></i>&nbsp;3 minutes</span><span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="https://cronytips.github.io/tags/linux">linux</a>&nbsp;</span>
-
-    </div>
-    <div class="post-item post-summary markdown-body">
-        <p>In this post I will explain my reason&rsquo;s for using and loving linux. And they also serve as reasons as to <code>why you should use linux</code>.</p>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-<div class="pagination">
-    
-    <div class="pag-first">
-        <a href="https://cronytips.github.io/post/"><i class="iconfont icon-caret-back-circle-sharp"></i></a>
-    </div>
-    
-    
-    <div class="pag-previous">
-        <a href="https://cronytips.github.io/post/"><i class="iconfont icon-chevron-back-circle-sharp"></i></a>
-    </div>
-    
-    
-    
-    
-    
-    
-    
-    <div class="pag-item">
-        <a href="https://cronytips.github.io/post/">1</a>
-    </div>
-    
-    
-    
-    
-    
-    
-    
-    <div class="pag-item pag-current">
-        <a href="https://cronytips.github.io/post/page/2/">2</a>
-    </div>
-    
-    
-    
-    
-</div>
-
 
 
             </div>

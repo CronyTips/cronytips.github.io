@@ -4,7 +4,27 @@
   
   <url>
     <loc>https://cronytips.github.io/</loc>
-    <lastmod>2020-08-28T12:56:10+02:00</lastmod>
+    <lastmod>2020-09-08T15:17:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cronytips.github.io/tags/linux/</loc>
+    <lastmod>2020-09-08T15:17:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cronytips.github.io/tags/open-source/</loc>
+    <lastmod>2020-09-08T15:17:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cronytips.github.io/post/</loc>
+    <lastmod>2020-09-08T15:17:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cronytips.github.io/2020/unite-gtk-and-qt/</loc>
+    <lastmod>2020-09-08T15:17:26+02:00</lastmod>
   </url>
   
   <url>
@@ -18,22 +38,7 @@
   </url>
   
   <url>
-    <loc>https://cronytips.github.io/tags/open-source/</loc>
-    <lastmod>2020-08-28T12:56:10+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cronytips.github.io/post/</loc>
-    <lastmod>2020-08-28T12:56:10+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://cronytips.github.io/2020/arch-manjaro-fix-gpg-keyserver-error/</loc>
-    <lastmod>2020-08-06T13:02:33+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cronytips.github.io/tags/linux/</loc>
     <lastmod>2020-08-06T13:02:33+02:00</lastmod>
   </url>
   
