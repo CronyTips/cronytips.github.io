@@ -24,7 +24,7 @@
 
 
 
-<title>Posts - Crony Tips</title>
+<title>Acer Aspire A715 41g Linux Experience - Crony Tips</title>
 
 
 <meta name="author" content="Crony Akatsuki" />
@@ -33,18 +33,21 @@
 <meta name="description" content="A certain lunatics blog about anime, manga, light novels, games and linux" />
 
 
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="A certain lunatics blog about anime, manga, light novels, games and linux" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://cronytips.github.io/post/" />
+<meta name="keywords" content="linux, open-source" />
+
+<meta property="og:title" content="Acer Aspire A715 41g Linux Experience" />
+<meta property="og:description" content="In this post I will talk about my experience with linux on Acer aspire 7 laptop." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cronytips.github.io/2020/acer-aspire-a715-41g-linux-experience/" />
 <meta property="og:image" content="https://cronytips.github.io/img/og.png"/>
-<meta property="og:updated_time" content="2020-10-20T08:19:50+02:00" />
+<meta property="article:published_time" content="2020-10-20T08:19:50+02:00" />
+<meta property="article:modified_time" content="2020-10-20T08:19:50+02:00" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://cronytips.github.io/img/og.png"/>
 
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="A certain lunatics blog about anime, manga, light novels, games and linux"/>
+<meta name="twitter:title" content="Acer Aspire A715 41g Linux Experience"/>
+<meta name="twitter:description" content="In this post I will talk about my experience with linux on Acer aspire 7 laptop."/>
 
 
 
@@ -115,104 +118,56 @@
             
             <div class="col-12 col-md-9 float-left content">
                 
-
-
-
-<div class="post">
+<article>
+    
     <h2 class="post-item post-title">
-        <a href="https://cronytips.github.io/2020/gaming-on-linux/">Gaming on Linux</a>
+        <a href="https://cronytips.github.io/2020/acer-aspire-a715-41g-linux-experience/">Acer Aspire A715 41g Linux Experience</a>
     </h2>
     <div class="post-item post-meta">
-        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2020-07-12</span><span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;566 words</span><span><i class="iconfont icon-time-sharp"></i>&nbsp;3 minutes</span><span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="https://cronytips.github.io/tags/games">games</a>&nbsp;<a href="https://cronytips.github.io/tags/linux">linux</a>&nbsp;</span>
+        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2020-10-20</span><span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;605 words</span><span><i class="iconfont icon-time-sharp"></i>&nbsp;3 minutes</span><span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="https://cronytips.github.io/tags/linux">linux</a>&nbsp;<a href="https://cronytips.github.io/tags/open-source">open-source</a>&nbsp;</span>
 
     </div>
-    <div class="post-item post-summary markdown-body">
-        <p>In this post I will be talking about my experience on the topic of gaming on GNU/Linux and its state in this day and age.</p>
+    
+    
+    <div class="post-content markdown-body">
+        <p>In this post I will talk about my experience with linux on Acer aspire 7 laptop.</p>
+<hr>
+<p>So recently I bought a new laptop that costs about 950 American dollars. Well I bought it for 770 American dollars (Got a good deal). This laptop was pretty good and I needed it because of school (Literally) so I have been on a hunt for a deal like this for 2 months. And I managed to find this one and have been pretty happy with the machine.</p>
+<p>The specifications of this machine are: 8 GB ram, AMD Ryzen 5 3550H processor, Nvidia GTX 1650 graphics card and 512 GB SSD and a 1080p IPS display. Pretty good for the money I paid for it. First thing I did was install windows 10 so that I can install all the software that I need for school (And also a cople of games that dont work on linux). Since it had a integrated Vega 8 gpu it had Nvidia containers in windows 10 which enable me to use the dedicated 1650. The performance was good even thought I installed windows 10 on in so after a couple of days I decided to install linux on a different partition.</p>
+<h3 id="1-artix-linux">1. Artix linux</h3>
+<p>The first distro that I tried to install was a distro I used on my old machine. I took the base install (cli install like the arch linux) and installed the basic packages and everything else in less than 20 minutes. Then I easily pulled my dotfiles from github and placed them at their place and started installing my package list (after removing some uneeded packages from it). After that I made zsh my default shell and rebooted into the bspwm. Everything worked as expected, except for the 1650 which I couldn&rsquo;t get to work normally no matter what. And after breaking my xserver a couple of times I searched on the web for a distro that could do that for me.</p>
+<h3 id="2-manjaro">2. Manjaro</h3>
+<p>Since I loved the pacman package manager and aur I tried Manjaro because it had prime drivers for AMD/Nvidia combinations. I got the architect ISO and then I installed the cli system and like with artix I pulled my dotfiles from github and installed my packages. After that I rebooted into bspwm to see that the 1650 was working with no &ldquo;problems&rdquo; with prime. That is when gaming came in and made me switch to another distro. Prime would sometimes on some games lock my xserver so I had to forcefully power off my laptop. And that is when I decided to go for a debian based distro that I heard had great configuration for this kind of laptops.</p>
+<h3 id="3-pop-os">3. Pop OS</h3>
+<p>My experience on Pop OS was so good that this post is written in it. With its system76-power program I can easily switch between integrated and dedicated (even hybrid) gpu setups. The batter works for about 8 hours when on integrated and when on dedicated for about 5 hours. I didn&rsquo;t try out the hybrid setting because I don&rsquo;t need it. The performance was better than in windows 10 but I still don&rsquo;t like the fact that I have over 1600 packages installed on the fresh install and the 700mb usage on boot (bspwm used 200-300mb with mpd on) nut all in all it&rsquo;s working with no problems. And I can play games all I want with no guilt.</p>
+<hr>
+<p>That is it for todays post and I hope that you will find this post helpful in deciding whether to buy one of these or not going to. Write in the comments your experiences.</p>
     </div>
+</article>
+
+
+
+<div class="post-comment" data-comment="disqus">
+    <span class="post-comment-notloaded">
+        <i class="iconfont icon-chatbox-ellipses-sharp"></i>&nbsp;Load comments
+    </span>
+    <div id="disqus_thread" style="display: none;"></div>
+    <script>
+        function loadComment() {
+            var commentArea = document.querySelector('.post-comment');
+            var disqus_config = function () {
+                this.page.url = 'https:\/\/cronytips.github.io\/2020\/acer-aspire-a715-41g-linux-experience\/';
+                this.page.identifier = 'acer-aspire-a715-41g-linux-experience';
+            };
+            var s = document.createElement('script');
+            s.src = 'https://' + 'crony-tips' + '.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            document.querySelector('#disqus_thread').removeAttribute('style');
+            (document.body || document.head).appendChild(s);
+            document.querySelector('span.post-comment-notloaded').setAttribute('style', 'display: none;');
+        }
+    </script>
 </div>
-
-<div class="post">
-    <h2 class="post-item post-title">
-        <a href="https://cronytips.github.io/2020/anyme-android-app-for-watching-anime/">Anyme: android app for watching anime</a>
-    </h2>
-    <div class="post-item post-meta">
-        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2020-07-09</span><span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;766 words</span><span><i class="iconfont icon-time-sharp"></i>&nbsp;4 minutes</span><span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="https://cronytips.github.io/tags/anime">anime</a>&nbsp;<a href="https://cronytips.github.io/tags/android">android</a>&nbsp;</span>
-
-    </div>
-    <div class="post-item post-summary markdown-body">
-        <p>In this post I will be writing about an android app called Anyme.</p>
-    </div>
-</div>
-
-<div class="post">
-    <h2 class="post-item post-title">
-        <a href="https://cronytips.github.io/2020/tachiyomi-open-source-manga-reader-for-android/">Tachiyomi: open-source manga reader for android</a>
-    </h2>
-    <div class="post-item post-meta">
-        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2020-07-08</span><span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;1339 words</span><span><i class="iconfont icon-time-sharp"></i>&nbsp;7 minutes</span><span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="https://cronytips.github.io/tags/manga">manga</a>&nbsp;<a href="https://cronytips.github.io/tags/android">android</a>&nbsp;<a href="https://cronytips.github.io/tags/open-source">open-source</a>&nbsp;</span>
-
-    </div>
-    <div class="post-item post-summary markdown-body">
-        <p>In this post I will write about a open-source manga reader named Tachiyomi.</p>
-    </div>
-</div>
-
-<div class="post">
-    <h2 class="post-item post-title">
-        <a href="https://cronytips.github.io/2020/why-do-i-use-linux/">Why do I use Linux</a>
-    </h2>
-    <div class="post-item post-meta">
-        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2020-07-07</span><span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;514 words</span><span><i class="iconfont icon-time-sharp"></i>&nbsp;3 minutes</span><span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="https://cronytips.github.io/tags/linux">linux</a>&nbsp;</span>
-
-    </div>
-    <div class="post-item post-summary markdown-body">
-        <p>In this post I will explain my reason&rsquo;s for using and loving linux. And they also serve as reasons as to <code>why you should use linux</code>.</p>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-<div class="pagination">
-    
-    <div class="pag-first">
-        <a href="https://cronytips.github.io/post/"><i class="iconfont icon-caret-back-circle-sharp"></i></a>
-    </div>
-    
-    
-    <div class="pag-previous">
-        <a href="https://cronytips.github.io/post/"><i class="iconfont icon-chevron-back-circle-sharp"></i></a>
-    </div>
-    
-    
-    
-    
-    
-    
-    
-    <div class="pag-item">
-        <a href="https://cronytips.github.io/post/">1</a>
-    </div>
-    
-    
-    
-    
-    
-    
-    
-    <div class="pag-item pag-current">
-        <a href="https://cronytips.github.io/post/page/2/">2</a>
-    </div>
-    
-    
-    
-    
-</div>
-
 
 
             </div>
