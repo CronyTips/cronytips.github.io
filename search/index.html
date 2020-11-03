@@ -61,8 +61,8 @@
 </style>
 
 
-<link rel="stylesheet" href="https://cronytips.github.io/assets/css/fuji.min.css" />
 
+<link rel="stylesheet" href="https://cronytips.github.io/assets/css/fuji.min.css" />
 
 <script async data-ad-client="ca-pub-ca-pub-9546162568577568" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
@@ -137,9 +137,9 @@
             <a href="<%= $data[i].item.permalink %>"><%= $data[i].item.title %></a>
         </h3>
         <div class="post-item post-meta-archive">
-            <span><ion-icon name="today"></ion-icon>&nbsp;<%= $data[i].item.date %></span>
+            <span><i class="iconfont icon-today-sharp"></i>&nbsp;<%= $data[i].item.date %></span>
             <span>
-                <ion-icon name="pricetags"></ion-icon>&nbsp;<% if ($data[i].item.tags && $data[i].item.tags.length > 0) { %><% for(var j = 0; j < $data[i].item.tags.length; j++){ %><%= $data[i].item.tags[j] %>&nbsp;<% } %><% } else { %>No tag<% } %>
+                <i class="iconfont icon-pricetags-sharp"></i>&nbsp;<% if ($data[i].item.tags && $data[i].item.tags.length > 0) { %><% for(var j = 0; j < $data[i].item.tags.length; j++){ %><%= $data[i].item.tags[j] %>&nbsp;<% } %><% } else { %>No tag<% } %>
             </span>
         </div>
     </div>
@@ -167,6 +167,37 @@
             
             <li>
                 <a href="https://cronytips.github.io/search/">Search</a>
+            </li>
+            
+        </ul>
+    </div>
+    
+    <div class="sidebar-item sidebar-links">
+        <h3>Links</h3>
+        <ul>
+            
+            <li>
+                <a href="https://github.com/CroLinuxGamer" target="_blank"><span>GitHub</span></a>
+            </li>
+            
+            <li>
+                <a href="https://www.instagram.com/cro.otaku/" target="_blank"><span>Instagram</span></a>
+            </li>
+            
+            <li>
+                <a href="https://www.reddit.com/user/CronyAkatskuki" target="_blank"><span>reddit</span></a>
+            </li>
+            
+            <li>
+                <a href="https://twitter.com/CronyAkatsuki" target="_blank"><span>twitter</span></a>
+            </li>
+            
+            <li>
+                <a href="https://myanimelist.net/animelist/CronyAkatsuki" target="_blank"><span>Anime list</span></a>
+            </li>
+            
+            <li>
+                <a href="https://anilist.co/user/CronyAkatsuki/mangalist" target="_blank"><span>Manga list</span></a>
             </li>
             
         </ul>
@@ -211,6 +242,48 @@
         </div>
     </div>
     
+    
+    
+    
+</aside>
+        </div>
+        <div class="btn">
+    <div class="btn-menu" id="btn-menu">
+        <i class="iconfont icon-grid-sharp"></i>
+    </div>
+    <div class="btn-toggle-mode">
+        <i class="iconfont icon-contrast-sharp"></i>
+    </div>
+    <div class="btn-scroll-top">
+        <i class="iconfont icon-chevron-up-circle-sharp"></i>
+    </div>
+</div>
+<aside class="sidebar-mobile" style="display: none;">
+  <div class="sidebar-wrapper">
+    
+    <div class="sidebar-item sidebar-pages">
+        <h3>Pages</h3>
+        <ul>
+            
+            <li>
+                <a href="https://cronytips.github.io/">Home</a>
+            </li>
+            
+            <li>
+                <a href="https://cronytips.github.io/archives/">Archives</a>
+            </li>
+            
+            <li>
+                <a href="https://cronytips.github.io/about/">About</a>
+            </li>
+            
+            <li>
+                <a href="https://cronytips.github.io/search/">Search</a>
+            </li>
+            
+        </ul>
+    </div>
+    
     <div class="sidebar-item sidebar-links">
         <h3>Links</h3>
         <ul>
@@ -242,33 +315,69 @@
         </ul>
     </div>
     
-    
-    
-    
-</aside>
+    <div class="sidebar-item sidebar-tags">
+        <h3>Tags</h3>
+        <div>
+            
+            <span>
+                <a href="https://cronytips.github.io/tags/android/">android</a>
+            </span>
+            
+            <span>
+                <a href="https://cronytips.github.io/tags/anime/">anime</a>
+            </span>
+            
+            <span>
+                <a href="https://cronytips.github.io/tags/browser/">browser</a>
+            </span>
+            
+            <span>
+                <a href="https://cronytips.github.io/tags/games/">games</a>
+            </span>
+            
+            <span>
+                <a href="https://cronytips.github.io/tags/light-novels/">light novels</a>
+            </span>
+            
+            <span>
+                <a href="https://cronytips.github.io/tags/linux/">linux</a>
+            </span>
+            
+            <span>
+                <a href="https://cronytips.github.io/tags/manga/">manga</a>
+            </span>
+            
+            <span>
+                <a href="https://cronytips.github.io/tags/open-source/">open-source</a>
+            </span>
+            
         </div>
-        <div class="btn">
-    <div class="btn-toggle-mode">
-        <i class="iconfont icon-contrast-sharp"></i>
     </div>
-    <div class="btn-scroll-top">
-        <i class="iconfont icon-chevron-up-circle-sharp"></i>
-    </div>
-</div>
+    
+    
+  </div>
+</aside>
     </main>
 
     <footer>
     <div class="container-lg clearfix">
         <div class="col-12 footer">
-            <span>&copy; 2020 <a href="https://cronytips.github.io/">Crony Akatsuki</a> |
-                Powered by <a href="https://github.com/amzrk2/hugo-theme-fuji/"
-                   target="_blank">Fuji-v2</a> & <a href="https://gohugo.io/"
-                   target="_blank">Hugo</a> </span>
+            
+            <span>&copy; 2020
+                <a href="https://cronytips.github.io/">Crony Akatsuki</a>
+                
+                | Powered by <a href="https://github.com/amzrk2/hugo-theme-fuji/"
+                   target="_blank">Fuji-v2</a> &amp; <a href="https://gohugo.io/"
+                                                    target="_blank">Hugo</a> 
+            </span>
         </div>
     </div>
 </footer>
+
     
-<script defer src="https://cdn.jsdelivr.net/combine/npm/art-template@4.13.2/lib/template-web.min.js,npm/fuse.js@6.2.0"></script>
+<script defer src="https://cdn.jsdelivr.net/combine/npm/art-template@4.13.2/lib/template-web.min.js,npm/fuse.js@6.4.1"></script>
+
+
 
 <script defer src="https://cronytips.github.io/assets/js/fuji.min.js"></script>
 
