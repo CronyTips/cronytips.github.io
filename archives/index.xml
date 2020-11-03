@@ -5,10 +5,6 @@
     <link>https://cronytips.github.io/archives/</link>
     <description>Recent content in Archives on Crony Tips</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    
-	<atom:link href="https://cronytips.github.io/archives/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language><atom:link href="https://cronytips.github.io/archives/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -24,7 +24,7 @@
 
 
 
-<title>Unite Gtk and Qt - Crony Tips</title>
+<title>Connam NetworkManager Replacement - Crony Tips</title>
 
 
 <meta name="author" content="Crony Akatsuki" />
@@ -35,19 +35,19 @@
 
 <meta name="keywords" content="linux, open-source" />
 
-<meta property="og:title" content="Unite Gtk and Qt" />
-<meta property="og:description" content="In this post I will talk about how to unite gtk and qt themes." />
+<meta property="og:title" content="Connam NetworkManager Replacement" />
+<meta property="og:description" content="In  this post I will be talking about a NetworkManager replacement called ConnMan." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://cronytips.github.io/2020/unite-gtk-and-qt/" />
+<meta property="og:url" content="https://cronytips.github.io/2020/connam-networkmanager-replacement/" />
 <meta property="og:image" content="https://cronytips.github.io/img/og.png"/>
-<meta property="article:published_time" content="2020-09-08T15:17:26+02:00" />
-<meta property="article:modified_time" content="2020-09-08T15:17:26+02:00" />
+<meta property="article:published_time" content="2020-11-03T21:46:22+01:00" />
+<meta property="article:modified_time" content="2020-11-03T21:46:22+01:00" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://cronytips.github.io/img/og.png"/>
 
-<meta name="twitter:title" content="Unite Gtk and Qt"/>
-<meta name="twitter:description" content="In this post I will talk about how to unite gtk and qt themes."/>
+<meta name="twitter:title" content="Connam NetworkManager Replacement"/>
+<meta name="twitter:description" content="In  this post I will be talking about a NetworkManager replacement called ConnMan."/>
 
 
 
@@ -121,43 +121,28 @@
 <article>
     
     <h2 class="post-item post-title">
-        <a href="https://cronytips.github.io/2020/unite-gtk-and-qt/">Unite Gtk and Qt</a>
+        <a href="https://cronytips.github.io/2020/connam-networkmanager-replacement/">Connam NetworkManager Replacement</a>
     </h2>
     <div class="post-item post-meta">
-        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2020-09-08</span><span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;278 words</span><span><i class="iconfont icon-time-sharp"></i>&nbsp;2 minutes</span><span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="https://cronytips.github.io/tags/linux">linux</a>&nbsp;<a href="https://cronytips.github.io/tags/open-source">open-source</a>&nbsp;</span>
+        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2020-11-03</span><span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;167 words</span><span><i class="iconfont icon-time-sharp"></i>&nbsp;1 minute</span><span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="https://cronytips.github.io/tags/linux">linux</a>&nbsp;<a href="https://cronytips.github.io/tags/open-source">open-source</a>&nbsp;</span>
 
     </div>
     
     
     <div class="post-content markdown-body">
-        <p>In this post I will talk about how to unite gtk and qt themes.</p>
+        <p>In  this post I will be talking about a NetworkManager replacement called ConnMan.</p>
 <hr>
-
-<img
-  class="lazyload img-zoomable"
-  src="https://cronytips.github.io/assets/lazyload/dsrca_loading_960x270.svg"
-  data-src="https://raw.githubusercontent.com/CroLinuxGamer/Photos/master/qt5ct.png"
-  alt="kid3-qt"
-/>
-
-
-<blockquote>
-<p>example of a qt program using qt5ct</p>
-</blockquote>
-<p>We all know the pain of trying to unite gtk and qt themes under linux. Most of the time the only thing that you can do is use same gtk and qt theme but there is another way that I have been using and that is using a program called qt5ct. Here you can check it&rsquo;s <a href="https://sourceforge.net/projects/qt5ct/" target="_blank">sourceforge site</a>.</p>
-<p>Qt5ct works in a way that it sets the qt theme to either gtk2 or a style with custom colors. You can also change the icons, font and other stuff to make your theming look more consistent.</p>
-<p>Now I&rsquo;m not saying that this program is bug free because I had problems of needing to install a lot of other packages to make it work or the gtk2 option wouldn&rsquo;t work for some reason. And the best way to find the fixes is to look on the Internet for the fix.</p>
-<h1 id="installation">Installation</h1>
-<p>Qt5ct is from my knowledge available in most distro repository&rsquo;s so you can use your package manager to install the qt5ct package. You also need to install additional gtk engines.</p>
-<p>It is also preferable that your themes also have a gtk2 version.</p>
-<p>But before using the software first you need to set an environmental variable <strong>QT_QPA_PLATFORMTHEME=&ldquo;qt5ct&rdquo;</strong>.</p>
-<p>Depending on you shell you will need to save it in your <em>.profile</em>.</p>
-<pre><code>zsh &gt; `export QT_QPA_PLATFORMTHEME=&quot;qt5ct&quot;` inside .zprofile
-
-bash &gt; `export QT_QPA_PLATFORMTHEME=&quot;qt5ct&quot;` inside .profile
-</code></pre>
+<p>Everyone that uses Linux probably uses NetworkManager when connecting to wifi networks. I used NetworkManager also but recently I found a better solution. It is called ConnMan.</p>
+<p>ConMan is a network manager that is much simpler than NetworkManager. From my experience connman is faster and more stable than NetworkManager.</p>
+<p>It can also use iwd instead wpa_supplicant which is also much more faster and safer which makes it much more reliable than NetworkManager.</p>
+<p>ConnMan has qt and gtk interface. Personally gtk version is simpler and nicer but if you wan&rsquo;t to get a lot of control over your network you will need to use the qt version.</p>
+<p>Here are is the ConnMan and the gui interface repos:</p>
+<p>ConnMan: <a href="https://git.kernel.org/pub/scm/network/connman/connman.git/about/">https://git.kernel.org/pub/scm/network/connman/connman.git/about/</a></p>
+<p>Qt interface: <a href="https://github.com/andrew-bibb/cmst">https://github.com/andrew-bibb/cmst</a></p>
+<p>GTK interface: <a href="https://github.com/gke/connman-gtk">https://github.com/gke/connman-gtk</a></p>
+<p>Also check out the arch wiki page: <a href="https://wiki.archlinux.org/index.php/ConnMan">https://wiki.archlinux.org/index.php/ConnMan</a></p>
 <hr>
-<p>I hope how this will help you get that perfect unified looks on your linux desktop. If you have any questions mention them in the comments section.</p>
+<p>If you guys found this post helpful like the post and tell me in the comments section if you have any questions.</p>
     </div>
 </article>
 
@@ -172,8 +157,8 @@ bash &gt; `export QT_QPA_PLATFORMTHEME=&quot;qt5ct&quot;` inside .profile
         function loadComment() {
             var commentArea = document.querySelector('.post-comment');
             var disqus_config = function () {
-                this.page.url = 'https:\/\/cronytips.github.io\/2020\/unite-gtk-and-qt\/';
-                this.page.identifier = 'unite-gtk-and-qt';
+                this.page.url = 'https:\/\/cronytips.github.io\/2020\/connam-networkmanager-replacement\/';
+                this.page.identifier = 'connam-networkmanager-replacement';
             };
             var s = document.createElement('script');
             s.src = 'https://' + 'crony-tips' + '.disqus.com/embed.js';
