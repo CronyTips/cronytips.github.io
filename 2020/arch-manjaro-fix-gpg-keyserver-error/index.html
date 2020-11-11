@@ -9,7 +9,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta http-equiv="Cache-Control" content="no-transform" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
-<meta name="generator" content="Hugo 0.77.0" />
+<meta name="generator" content="Hugo 0.78.1" />
 
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://cronytips.github.io/ie/apple-touch-icon.png">
@@ -124,7 +124,7 @@
         <a href="https://cronytips.github.io/2020/arch-manjaro-fix-gpg-keyserver-error/">Arch/Manjaro: Fix Gpg Keyserver Error</a>
     </h2>
     <div class="post-item post-meta">
-        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2020-08-06</span><span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;269 words</span><span><i class="iconfont icon-time-sharp"></i>&nbsp;2 minutes</span><span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="https://cronytips.github.io/tags/linux">linux</a>&nbsp;</span>
+        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2020-08-06</span><span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;261 words</span><span><i class="iconfont icon-time-sharp"></i>&nbsp;2 minutes</span><span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="https://cronytips.github.io/tags/linux">linux</a>&nbsp;</span>
 
     </div>
     
@@ -140,20 +140,20 @@
 <p>Manually adding the key using different keyserver.</p>
 <p>To do that you need to use either of the two next commands with your keyserver of choice and the key you wish to add.</p>
 <p>Aur</p>
-<p><code>gpg --keyserver ${KEYSERVER} --recv-keys ${KEY}</code></p>
+<p><code>gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys ${KEY}</code></p>
 <p>Pacman</p>
-<p><code>sudo pacman-key --keyserver ${KEYSERVER} pacman-key --lsign-key keyid ${KEY}</code></p>
+<p><code>sudo pacman-key --keyserver hkp://pool.sks-keyservers.net pacman-key --lsign-key keyid ${KEY}</code></p>
 <p>You use the first command for Aur and second for updates in Pacman.</p>
 <ol start="2">
 <li>Fix</li>
 </ol>
 <p>Change the default keyserver.</p>
 <p>You can change the default keyserver by changing the gpg and pacman keyserver default values. To do that you need to do this:</p>
-<p>Add <code>keyserver ${KEYSERVER}</code> with the keyserver of your choosing at the end of the next two files at this locations. Using text editor of your choice here I used nano as an example.</p>
+<p>Add <code>keyserver hkp://pool.sks-keyservers.net</code> which will use a keyserver that works 99% of time. Using text editor of your choice here I used nano as an example.</p>
 <p>Aur</p>
 <p><code>sudo nano /etc/pacman.d/gnupg/gpg.conf</code></p>
 <p>Pacman</p>
-<p><code>sudo nano ~/.gnupg/gpg.conf</code></p>
+<p><code>nano ~/.gnupg/gpg.conf</code></p>
 <hr>
 <p>I hope that this was helpful to you and that you are now able to normally install your programs again. You can also write about any other methods to fix this problem in the comments.</p>
     </div>
