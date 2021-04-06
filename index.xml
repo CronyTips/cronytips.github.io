@@ -6,7 +6,16 @@
     <description>Recent content on Crony Tips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Mar 2021 17:15:13 +0100</lastBuildDate><atom:link href="https://cronytips.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Apr 2021 11:27:32 +0200</lastBuildDate><atom:link href="https://cronytips.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scrcpy: Open Source Screen Mirroring Tool</title>
+      <link>https://cronytips.github.io/2021/scrcpy-open-source-screen-mirroring-tool/</link>
+      <pubDate>Tue, 06 Apr 2021 11:27:32 +0200</pubDate>
+      
+      <guid>https://cronytips.github.io/2021/scrcpy-open-source-screen-mirroring-tool/</guid>
+      <description>&lt;p&gt;In this post I will be talking about a android screen mirroring tool called scrcpy&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>MangoHud: Linux Gaming Overlay</title>
       <link>https://cronytips.github.io/2021/mangohud-linux-gaming-overlay/</link>

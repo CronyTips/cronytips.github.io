@@ -6,7 +6,16 @@
     <description>Recent content in android on Crony Tips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Jul 2020 14:10:36 +0200</lastBuildDate><atom:link href="https://cronytips.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Apr 2021 11:27:32 +0200</lastBuildDate><atom:link href="https://cronytips.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scrcpy: Open Source Screen Mirroring Tool</title>
+      <link>https://cronytips.github.io/2021/scrcpy-open-source-screen-mirroring-tool/</link>
+      <pubDate>Tue, 06 Apr 2021 11:27:32 +0200</pubDate>
+      
+      <guid>https://cronytips.github.io/2021/scrcpy-open-source-screen-mirroring-tool/</guid>
+      <description>&lt;p&gt;In this post I will be talking about a android screen mirroring tool called scrcpy&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Anyme: android app for watching anime</title>
       <link>https://cronytips.github.io/2020/anyme-android-app-for-watching-anime/</link>
