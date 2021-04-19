@@ -2,22 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://cronytips.github.io/</loc>
+    <lastmod>2021-04-19T14:44:05+02:00</lastmod>
+  </url><url>
+    <loc>https://cronytips.github.io/tags/linux/</loc>
+    <lastmod>2021-04-19T14:44:05+02:00</lastmod>
+  </url><url>
+    <loc>https://cronytips.github.io/2021/mailspring-best-linux-mail-client/</loc>
+    <lastmod>2021-04-19T14:44:05+02:00</lastmod>
+  </url><url>
+    <loc>https://cronytips.github.io/tags/open-source/</loc>
+    <lastmod>2021-04-19T14:44:05+02:00</lastmod>
+  </url><url>
+    <loc>https://cronytips.github.io/post/</loc>
+    <lastmod>2021-04-19T14:44:05+02:00</lastmod>
+  </url><url>
     <loc>https://cronytips.github.io/tags/anime/</loc>
     <lastmod>2021-04-15T17:40:26+02:00</lastmod>
   </url><url>
     <loc>https://cronytips.github.io/2021/beyond-the-boundary-anime-review/</loc>
     <lastmod>2021-04-15T17:40:26+02:00</lastmod>
   </url><url>
-    <loc>https://cronytips.github.io/</loc>
-    <lastmod>2021-04-15T17:40:26+02:00</lastmod>
-  </url><url>
-    <loc>https://cronytips.github.io/post/</loc>
-    <lastmod>2021-04-15T17:40:26+02:00</lastmod>
-  </url><url>
     <loc>https://cronytips.github.io/tags/gaming/</loc>
-    <lastmod>2021-04-15T10:45:49+02:00</lastmod>
-  </url><url>
-    <loc>https://cronytips.github.io/tags/linux/</loc>
     <lastmod>2021-04-15T10:45:49+02:00</lastmod>
   </url><url>
     <loc>https://cronytips.github.io/2021/the-darkness-ii-steam-play-setup/</loc>
@@ -30,9 +36,6 @@
     <lastmod>2021-04-13T13:06:49+02:00</lastmod>
   </url><url>
     <loc>https://cronytips.github.io/2021/f-droid-open-source-application-store/</loc>
-    <lastmod>2021-04-13T13:06:49+02:00</lastmod>
-  </url><url>
-    <loc>https://cronytips.github.io/tags/open-source/</loc>
     <lastmod>2021-04-13T13:06:49+02:00</lastmod>
   </url><url>
     <loc>https://cronytips.github.io/2021/scrcpy-open-source-screen-mirroring-tool/</loc>
