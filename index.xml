@@ -6,7 +6,16 @@
     <description>Recent content on Crony Tips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 May 2021 21:10:52 +0200</lastBuildDate><atom:link href="https://cronytips.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Jul 2021 09:57:15 +0200</lastBuildDate><atom:link href="https://cronytips.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows 10: Fix Virtualitization Not Working for Third Party Programs</title>
+      <link>https://cronytips.github.io/2021/windows-10-fix-virtualitization-not-working-for-third-party-programs/</link>
+      <pubDate>Wed, 14 Jul 2021 09:57:15 +0200</pubDate>
+      
+      <guid>https://cronytips.github.io/2021/windows-10-fix-virtualitization-not-working-for-third-party-programs/</guid>
+      <description>&lt;p&gt;In this post I will talk about how to fix virtualitization not working for third party programs in Windows 10.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Pop! OS Amd/Nvidia Tearing Fix</title>
       <link>https://cronytips.github.io/2021/pop-os-amd-nvidia-tearing-fix/</link>
